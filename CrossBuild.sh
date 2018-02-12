@@ -16,10 +16,10 @@ fi
 
 QT_VERSION=5.10
 QT_UPDATE_VERSION=0
-QT=qtbase-everywhere-src-$QT_VERSION.$QT_UPDATE_VERSION
+QT=qt-everywhere-src-$QT_VERSION.$QT_UPDATE_VERSION
 
 QT_TAR="$QT.tar.xz"
-DONWLOAD_PATH=http://download.qt.io/official_releases/qt/$QT_VERSION/$QT_VERSION.$QT_UPDATE_VERSION/submodules/$QT_TAR
+DONWLOAD_PATH=http://download.qt.io/official_releases/qt/$QT_VERSION/$QT_VERSION.$QT_UPDATE_VERSION/single/$QT_TAR
 STATIC_SOURCE_DIR=QtSource
 
 MAIN_DIR=$PWD
